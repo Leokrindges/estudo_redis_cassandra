@@ -16,11 +16,15 @@ services:
     container_name: feed-redis
     ports:
       - 6379:6379
+    networks:
+      - estudo-feed-network
 
   cassandra:
     image: cassandra:latest
     ports:
       - 9042:9042
+    networks:
+      - estudo-feed-network
 
   kafka:
     image: wurstmeister/kafka:latest
@@ -30,6 +34,8 @@ services:
     environment:
       - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092
       - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
+    networks:
+      - estudo-feed-network
 
   zookeeper:
     image: wurstmeister/zookeeper:latest
