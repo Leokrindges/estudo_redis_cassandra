@@ -28,6 +28,7 @@
     "cassandra-driver": "^4.7.2",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
+    "ioredis": "^5.4.2",
     "kafkajs": "^2.2.4",
     "nookies": "^2.5.2",
     "reflect-metadata": "^0.2.0",
