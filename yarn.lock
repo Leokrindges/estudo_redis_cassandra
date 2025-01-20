@@ -841,6 +841,14 @@
   resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-2.0.5.tgz#485d6b44e19779c98d04e52bd1d2bcc7001df0ea"
   integrity sha512-bSJv4pd6EY99NX9CjBIyn4TVDoSit82DUZlL4I3bqNfy5Gt+gXTa86i3I/i0iIV9P4hntcGM5GyO+FhZAhxtyg==
 
+"@nestjs/microservices@^11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-11.0.1.tgz#85bfaddcadec2e415784e8ebf514927bcd083e1a"
+  integrity sha512-Dwl7DURdhEFSrzoPXFKDeqOKVu1V5rmIOqzlkowFyD3gMJUpX/OeIBHMLecUcexpY1cPD0EYtsjxF6u7jF0kwg==
+  dependencies:
+    iterare "1.2.1"
+    tslib "2.8.1"
+
 "@nestjs/platform-express@^10.0.0":
   version "10.4.15"
   resolved "https://registry.npmjs.org/@nestjs/platform-express/-/platform-express-10.4.15.tgz"
